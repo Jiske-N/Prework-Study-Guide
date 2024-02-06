@@ -20,7 +20,7 @@ A web browser and internet access are the only prerequisites for accessing the c
 To view the Javascript elements: right or command click anywhere on the body and select "inspect" or "inspect element"
 Then navigate to the console tab. 
 ```md
-![Screenshot showing the developer tools on the console tab](/assets/images/Prework-Study-Guide-README.png)
+![Screenshot showing the developer tools on the console tab](prework-study-guide/assets/images/Prework Study Guide README.png)
 ```
 Refresh the page as needed.
 
