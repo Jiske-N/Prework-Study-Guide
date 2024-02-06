@@ -1,18 +1,59 @@
-const topic = ["HTML", "CSS", "Git", "Javascript"];
+const topics = ['HTML', 'CSS', 'Git', 'JavaScript', 'Questions'];
+const randomTopic = topics[Math.floor(Math.random() * topics.length)];
 
-for (let x = 0; x < topic.length; x++) {
-    console.log(topic[x]);
-   }
-/*
-if (topic [0]) {
-  console.log("Let's study HTML!");
-} else if (topic [1]) {
-  console.log("Let's study CSS!");
-} else if (topic [2]) {
-  console.log("Let's study Git!");
-} else if (topic [3]) {
-  console.log("Let's study JavaScript!");
-} else {
-  console.log('Please try again!');
+function listTopics() {
+ for (let x = 0; x < topics.length; x++) {
+   console.log(topics[x]);
+ }
 }
+
+function selectTopic() {
+  if (randomTopic === 'HTML') {
+    console.log("Let's study HTML!");
+  } else if (randomTopic === 'CSS') {
+    console.log("Let's study CSS!");
+  } else if (randomTopic === 'Git') {
+    console.log("Let's study Git!");
+  } else if (randomTopic === 'JavaScript') {
+    console.log("Let's study JavaScript!");
+  } else if (randomTopic === 'Questions') {
+    console.log("Let's ask a question!")
+  } else {
+    console.log('Please try again!');
+  }
+}
+
+console.log('Here are the topics we learned through Prework:');
+listTopics();
+console.log('Which topic should we study first?');
+selectTopic();
+
+/*
+const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+const randomTopic = topics[Math.floor(Math.random() * topics.length)];
+
+function listTopics() {
+ for (let x = 0; x < topics.length; x++) {
+   console.log(topics[x]);
+ }
+}
+
+function selectTopic() {
+  if (randomTopic === '[0]') {
+    console.log("Let's study HTML!");
+  } else if (randomTopic === '[1]') {
+    console.log("Let's study CSS!");
+  } else if (randomTopic === '[2]') {
+    console.log("Let's study Git!");
+  } else if (randomTopic === '[3]') {
+    console.log("Let's study JavaScript!");
+  } else {
+    console.log('Please try again!');
+  }
+}
+
+console.log('Here are the topics we learned through Prework:');
+listTopics();
+console.log('Which topic should we study first?');
+selectTopic();
 */
