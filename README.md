@@ -23,7 +23,7 @@ To view the Javascript elements: right or command click anywhere on the body and
 Then navigate to the console tab. 
 
 ```MD
-![Screenshot showing the developer tools on the console tab](/assets/images/Prework Study Guide README.png)
+![Screenshot showing the developer tools on the console tab](/prework-study-guide/assets/images/Prework.png)
 ```
 
 Refresh the page as needed.
