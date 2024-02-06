@@ -9,10 +9,7 @@ Namely:
 + CSS for formating.
 + JavaScript for interaction and a look at developer tools.
 + As well as Gitbash to practice pushing/pulling to/from a local device and Github to host the project.  
-<<<<<<< HEAD
   
-=======
->>>>>>> 2cc403bd2cee5ab574fc5a1e9ca4c40a9841aec4
 By structuring everything together in one linked project it allowed an easier way to see the interaction between the different elements when compared to seperate "scenarios" or "problems" with each feature.
 
 ## Installation
@@ -25,13 +22,9 @@ A web browser and internet access are the only prerequisites for accessing the c
 To view the Javascript elements: right or command click anywhere on the body and select "inspect" or "inspect element"
 Then navigate to the console tab. 
 
-<<<<<<< HEAD
-![Screenshot showing the developer tools on the console tab](/assets/images/Prework Study Guide README.png)
-=======
 ```MD
-![Screenshot showing the developer tools on the console tab](/prework-study-guide/assets/images/Prework-Study-Guide-README.png)
+![Screenshot showing the developer tools on the console tab](/assets/images/Prework Study Guide README.png)
 ```
->>>>>>> 2cc403bd2cee5ab574fc5a1e9ca4c40a9841aec4
 
 Refresh the page as needed.
 
